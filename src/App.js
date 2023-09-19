@@ -176,7 +176,7 @@ function App() {
     setAlgorithmExplanation(explanation);
     setExecutionTime(executionTime.toFixed(2)); // Làm tròn thời gian sau dấu chấm 2 chữ số
     debugger;
-    setAlgorithmData([...algorithmData, { algorithm, executionTime }]);
+    setAlgorithmData([...algorithmData, { algorithm, executionTime }]);//Thêm phần tử vào mảng algorithmData có 2 thuộc tính algorithm và executionTime
     setCompletedAlgorithms([
       ...completedAlgorithms,
       { algorithm, executionTime },
